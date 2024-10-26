@@ -1,5 +1,6 @@
 # Redefine the quiz content with 25 questions and include score evaluation and answer count display
-quiz_content_25_with_score = {
+quiz_content_25_with_score = 
+{
     "shortDescription": "Test your knowledge of ancient history!",
     "questions": [
         {"question": "Who built the pyramids?", "answers": ["Egyptians", "Greeks", "Romans"], "correctAnswerIndex": 0},
@@ -27,17 +28,4 @@ quiz_content_25_with_score = {
         {"question": "Cleopatra's lover?", "answers": ["Antony", "Caesar", "Octavian"], "correctAnswerIndex": 0},
         {"question": "Location of Carthage?", "answers": ["Africa", "Asia", "Europe"], "correctAnswerIndex": 0}
     ],
-    "resultScoring": {
-        "scoreDescription": [
-            {"range": "0-7", "description": "Keep studying!"},
-            {"range": "8-15", "description": "Good effort!"},
-            {"range": "16-22", "description": "Well done!"},
-            {"range": "23-25", "description": "Expert in ancient history!"}
-        ],
-        "detailedResults": {
-            "displayCount": True,  # To display count of correct/incorrect answers
-            "correctCountText": "Correct answers: ",
-            "incorrectCountText": "Incorrect answers: "
-        }
-    }
 }
