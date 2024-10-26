@@ -1,0 +1,43 @@
+# Redefine the quiz content with 25 questions and include score evaluation and answer count display
+quiz_content_25_with_score = {
+    "shortDescription": "Test your knowledge of ancient history!",
+    "questions": [
+        {"question": "Who built the pyramids?", "answers": ["Egyptians", "Greeks", "Romans"], "correctAnswerIndex": 0},
+        {"question": "Capital of ancient Egypt?", "answers": ["Thebes", "Athens", "Rome"], "correctAnswerIndex": 0},
+        {"question": "Who was Julius Caesar?", "answers": ["Leader", "Pharaoh", "Philosopher"], "correctAnswerIndex": 0},
+        {"question": "What was the Sphinx?", "answers": ["Statue", "Temple", "City"], "correctAnswerIndex": 0},
+        {"question": "Ancient Greek warriors?", "answers": ["Spartans", "Mongols", "Ninjas"], "correctAnswerIndex": 0},
+        {"question": "Who built the Colosseum?", "answers": ["Romans", "Persians", "Greeks"], "correctAnswerIndex": 0},
+        {"question": "What is Mesopotamia?", "answers": ["Region", "Empire", "City"], "correctAnswerIndex": 0},
+        {"question": "First emperor of Rome?", "answers": ["Augustus", "Nero", "Caesar"], "correctAnswerIndex": 0},
+        {"question": "What is a ziggurat?", "answers": ["Temple", "Weapon", "Road"], "correctAnswerIndex": 0},
+        {"question": "Code of Hammurabi?", "answers": ["Laws", "Army", "Religion"], "correctAnswerIndex": 0},
+        {"question": "Ancient Persian capital?", "answers": ["Persepolis", "Athens", "Babylon"], "correctAnswerIndex": 0},
+        {"question": "Who was Plato?", "answers": ["Philosopher", "General", "Priest"], "correctAnswerIndex": 0},
+        {"question": "River in ancient Egypt?", "answers": ["Nile", "Tigris", "Danube"], "correctAnswerIndex": 0},
+        {"question": "King of Macedon?", "answers": ["Alexander", "Julius", "Hannibal"], "correctAnswerIndex": 0},
+        {"question": "What is cuneiform?", "answers": ["Script", "Weapon", "Boat"], "correctAnswerIndex": 0},
+        {"question": "Who was Confucius?", "answers": ["Philosopher", "King", "Warrior"], "correctAnswerIndex": 0},
+        {"question": "Great Wall is in?", "answers": ["China", "India", "Persia"], "correctAnswerIndex": 0},
+        {"question": "Ancient Egyptian writing?", "answers": ["Hieroglyphs", "Latin", "Sanskrit"], "correctAnswerIndex": 0},
+        {"question": "Oracle of Delphi?", "answers": ["Priestess", "Warrior", "King"], "correctAnswerIndex": 0},
+        {"question": "Capital of the Hittites?", "answers": ["Hattusa", "Sparta", "Rome"], "correctAnswerIndex": 0},
+        {"question": "Who was Ramses?", "answers": ["Pharaoh", "General", "King"], "correctAnswerIndex": 0},
+        {"question": "Founder of Buddhism?", "answers": ["Buddha", "Confucius", "Laozi"], "correctAnswerIndex": 0},
+        {"question": "Cleopatra's lover?", "answers": ["Antony", "Caesar", "Octavian"], "correctAnswerIndex": 0},
+        {"question": "Location of Carthage?", "answers": ["Africa", "Asia", "Europe"], "correctAnswerIndex": 0}
+    ],
+    "resultScoring": {
+        "scoreDescription": [
+            {"range": "0-7", "description": "Keep studying!"},
+            {"range": "8-15", "description": "Good effort!"},
+            {"range": "16-22", "description": "Well done!"},
+            {"range": "23-25", "description": "Expert in ancient history!"}
+        ],
+        "detailedResults": {
+            "displayCount": True,  # To display count of correct/incorrect answers
+            "correctCountText": "Correct answers: ",
+            "incorrectCountText": "Incorrect answers: "
+        }
+    }
+}
